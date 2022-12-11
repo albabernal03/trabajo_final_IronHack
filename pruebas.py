@@ -18,7 +18,7 @@ from sklearn.metrics import mean_poisson_deviance
 from sklearn.metrics import mean_gamma_deviance
 
 # Cargamos los datos
-df = pd.read_excel('regresion_data.xls')
+df = pd.read_excel('regression_data.xls')
 
 información = df.info()
 print(información)
