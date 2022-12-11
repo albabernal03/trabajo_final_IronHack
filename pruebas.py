@@ -19,8 +19,11 @@ from sklearn.metrics import mean_gamma_deviance
 
 # Cargamos los datos
 df = pd.read_excel('regresion_data.xls')
-df.head()
-df.info()
-df.describe()
+
+información = df.info()
+print(información)
+
+descripción = df.describe()
+print(descripción)
 #limpiamos los datos del fichero 
 #df = df.dropna()
