@@ -3,9 +3,10 @@ import numpy as np
 import streamlit as st
 import pickle
 
-df = pd.read_csv('proyecto_regresion\data\regression_nuevo.csv')
-scaler= pickle.load(open("proyecto_regresion\scalers\scalers.plk", "rb"))
-linear = pickle.load(open("proyecto_regresion\modelos\linear_regression.plk", "rb"))
+df = pd.read_csv(r'proyecto_regresion\data\regression_nuevo.csv')
+scaler= pickle.load(open(r"proyecto_regresion\scalers\scalers.plk", "rb"))
+linear = pickle.load(open(r"proyecto_regresion\models\modelo_regresion.plk", "rb"))
+
 
 st.title("Viviendas.")
 st.write("Bienvenido a nuestra aplicación. Aquí puede seleccionar lo que quiere hacer, ejecutando la aplicación de predicción de casas o buscar casas en nuestra base de datos.")
