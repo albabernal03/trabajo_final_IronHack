@@ -7,3 +7,8 @@ Este es el link del [repositorio](https://github.com/albabernal03/trabajo_final_
 ***
 <h2>¿De qué trata esta tarea?</h2>
 Desarrollar un modelo que prediga el precio de una casa en función de las características 
+
+***
+## Integrantes:
+1. [Alba](https://github.com/albabernal03) 
+2. [Claudia](https://github.com/claudiaalozano)
