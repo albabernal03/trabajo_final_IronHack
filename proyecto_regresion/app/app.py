@@ -3,9 +3,9 @@ import numpy as np
 import streamlit as st
 import pickle
 
-df = pd.read_csv('../data/regression_nuevo.csv')
-scaler= pickle.load(open("../scalers/scalers.plk", "rb"))
-linear = pickle.load(open("../models/modelo_regresion.plk", "rb"))
+df = pd.read_csv(r"proyecto_regresion\data\regression_nuevo.csv")
+scaler= pickle.load(open(r"proyecto_regresion\scalers\scalers.plk", "rb"))
+linear = pickle.load(open(r"proyecto_regresion\models\modelo_regresion.plk", "rb"))
 
 
 
