@@ -8,7 +8,7 @@ scaler= pickle.load(open(r"proyecto_regresion\scalers\scalers.plk", "rb"))
 linear = pickle.load(open(r"proyecto_regresion\models\modelo_regresion.plk", "rb"))
 
 
-st.title("Viviendas.")
+st.title("Viviendas .")
 st.write("Bienvenido a nuestra aplicación. Aquí puede seleccionar lo que quiere hacer, ejecutando la aplicación de predicción de casas o buscar casas en nuestra base de datos.")
 
 st.title("Aplicación de predicción de viviendas.")
